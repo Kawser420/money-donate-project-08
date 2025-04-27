@@ -8,7 +8,6 @@ module.exports = {
         secondary: "#F59E0B",
       },
     },
-    color: red,
   },
   plugins: [],
 };
