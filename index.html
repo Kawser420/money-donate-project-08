@@ -3,47 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>money donate</title>
-    <!-- i just decision, use tailwind & daisyUI CDN -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <title>Money Donate</title>
+
+    <!-- Tailwind CSS Play CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Tailwind Custom Color -->
+
+    <!-- Tailwind Custom Color Config -->
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
               clifford: "#da373d",
-              "icon-primary": "#ABEF5F",
-              "gray-primary": "#737373",
+              "btn-primary": "#B4F461",
+              "primary-text-tile": "#737373",
             },
           },
         },
       };
     </script>
+
+    <!-- daisyUI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
+
   <body>
     <header>
-      <!-- navbar start -->
+      <!-- Navbar start -->
       <nav>
         <div class="navbar bg-base-100 shadow-sm">
           <div class="navbar-start">
-            <a class="btn btn-ghost text-xl">Blog</a>
+            <a class="btn bg-btn-primary text-xl lg:text-lg">Blog</a>
           </div>
           <div class="navbar-center lg:flex">
-            <h2>Donate Bangladesh</h2>
+            <h2 class="text-2xl md:text-3xl lg:text-4xl text-icon-primary">
+              Donate Bangladesh
+            </h2>
           </div>
           <div class="navbar-end">
-            <a class="btn red">2000 BDT</a>
+            <a class="btn bg-btn-primary font-bold">2000 BDT</a>
           </div>
         </div>
       </nav>
-      <!-- navbar end is here -->
+      <!-- Navbar end -->
     </header>
-    <main></main>
+
+    <main>
+      <h1 class="text-gray-primary">Welcome</h1>
+    </main>
   </body>
 </html>
