@@ -11,6 +11,20 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Custom Color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "icon-primary": "#ABEF5F",
+              "gray-primary": "#737373",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
     <header>
@@ -18,7 +32,7 @@
       <nav>
         <div class="navbar bg-base-100 shadow-sm">
           <div class="navbar-start">
-            <a class="btn btn-ghost text-xl">Blag</a>
+            <a class="btn btn-ghost text-xl">Blog</a>
           </div>
           <div class="navbar-center lg:flex">
             <h2>Donate Bangladesh</h2>
