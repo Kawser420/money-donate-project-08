@@ -1,4 +1,4 @@
 // home js code start
 document.getElementById("btm-purple").addEventListener("click", function () {
-  console.log("primary button");
+  console.log("primary button is here");
 });
